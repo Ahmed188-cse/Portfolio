@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Portfolio Website of Sumon Ahmed</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Portfolio.</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#services">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="https://www.facebook.com/sumonahmed.ahmed.1069?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello,</div>
+          <div class="text-two">I'm Sumon Ahmed</div>
+          <div class="text-three">Web Designer</div>
+          <div class="text-four">From Bangladesh</div>
+        </div>
+        <div class="button">
+          <button>Hire Me</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="images/about.jpg" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">Designing Is My Passion</div>
+            <p>
+              Your dedication to user experience and interface design is truly commendable—it’s the perfect blend of creativity and practicality! Let’s embark on a journey to craft designs that not only dazzle the eyes but also intuitively guide users through seamless interactions.
+            </p>
+            <div class="button">
+              <button>Download CV</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section Start -->
+    <section class="gallery" id="gallery">
+      <div class="content">
+        <div class="title"><span>My Gallery</span></div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="images/gallery1.jpg" alt="Gallery Image 1" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/gallery2.jpg" alt="Gallery Image 2" />
+          </div>
+        </div>
+      </div>
+      <style>
+        .gallery-grid {
+          display: flex;
+          gap: 10px;
+          justify-content: center;
+        }
+        .gallery-item {
+          flex: 1;
+          max-width: 50%;
+        }
+        .gallery-item img {
+          width: 100%;
+          height: auto;
+          display: block;
+          border-radius: 10px;
+        }
+      </style>
+    </section>
+
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>Educational Qualification</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">SSC</div>
+              <p>School: Jamalpur Zilla School, Jamalpur</p>
+              <p>Board: Dhaka Board</p>
+              <p>Passing Year: 2017</p>
+              <p>Result: GPA-5.00</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic">HSC</div>
+              <p>College: Notre Dame College, Mymensingh</p>
+              <p>Board: Dhaka Board</p>
+              <p>Passing Year: 2019</p>
+              <p>Result: GPA-4.25</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="topic">University Info</div>
+              <p>University: Sheikh Hasina University, Netrokona</p>
+              <p>Department: CSE</p>
+              <p>Start: 2020-Present</p>
+              <p>Result: CGPA-3.25</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic">Have Any Project?</div>
+          <div class="button">
+            <button>Let's Chat</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
